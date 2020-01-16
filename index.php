@@ -2,20 +2,63 @@
 
     $a = 10 ;
     $b = 20 ;
+    constant $gyy = 5;
+    // constant($gyy, 5);
+
+
+
+    class me{
+        public $me = 0 ;
+        public function construct($hii)
+        {
+            $this->model = $hii;
+        }
+    }
+
+    $s = 2.4;
+    $s2 = "hiii";
+    $s3 = true;
+    $s4 = [3,4,5,5,];
+    $s5 = new me();
+    $s6 = null;
+    $s7 = new me("Bmw");
+    $myfile = fopen("kunal.txt","r") or die("Unable to open file");
+    echo "<pre>";
+    var_dump($d);
+    // var_dump($a);
+    // var_dump($s);
+    // var_dump($s2);
+    // var_dump($s3);
+    // var_dump($s4);
+    // var_dump($s5);
+    var_dump($s6);
+    var_dump($s7);
+    var_dump($myfile);
+    echo "</pre>";
+//Static variable
+    // static $a = 0;
+    // function myFunction(){
+    //     $a++;
+    //     echo $a;
+    // }
+
+    // myFunction();
+    // myFunction();
 //File
     // echo readfile("kunal.txt");
-    $filename = "kunal.txt";
-    $text = "kunal = husar";
-    // Reading the file
-    $myfile = fopen("kunal.txt","w") or die("Unable to open file");
+    // $filename = "kunal.txt";
+    // $text = "kunal = husar";
+    // // Reading the file
+    // $myfile = fopen("kunal.txt","r") or die("Unable to open file");
+    // var_dump($myfile);
 
-    fwrite($myfile,$text);
+    // fwrite($myfile,$text);
 
-    // while( !feof($myfile)){
-    //     echo fgets($myfile)."<br>";
-    //     }
+    // // while( !feof($myfile)){
+    // //     echo fgets($myfile)."<br>";
+    // //     }
 
-    fclose($myfile);
+    // fclose($myfile);
 
     // // Reading the file
     // $myfile = fopen("kunal.txt","r") or die("Unable to open file");
@@ -258,7 +301,8 @@
 
 
 
-    // function fib($n )
+    
+// function fib($n )
     // {
     //     if($n == 1)
     //         return 0;
@@ -267,7 +311,6 @@
     //     else 
     //         return fib($n-2)+fib($n-1);
     // } 
-
     // echo fib(7);
 
     //Arithmaical oprater
