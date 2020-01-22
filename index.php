@@ -2,7 +2,7 @@
 
     $a = 10 ;
     $b = 20 ;
-    constant $gyy = 5;
+    // constant $gyy = 5;
     // constant($gyy, 5);
 
 

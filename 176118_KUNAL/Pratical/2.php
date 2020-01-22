@@ -55,12 +55,25 @@ function factorial($n){
       }
 
   }   
+  function is_prime($n){
+        $count = 0; 
+        $i = 2;
+        while($i != $n){
+            if($n % $i == 0){
+                $count = 1;
+            }
+            $i++;
+        }
 
 
-function is_prime($n)
-{
- 
-}
+        if($count == 0)
+        {
+            echo "it is prime number";
+        }else{
+            echo "it is not a prime number";
+        }
+    }
+
 
 function is_odd($n)
 {
