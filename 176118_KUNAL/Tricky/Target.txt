@@ -1,0 +1,80 @@
+PHP Challenges:
+
+1. Write a PHP program to check if a given positive integer is a power of two. 
+Input : 4
+Output :4 is power of 2
+
+
+2. Write a PHP program to check if a given positive integer is a power of three. 
+Input : 9
+Output : 9 is power of 3
+
+
+3. Write a PHP program to check if a given positive integer is a power of four.
+Input : 4
+Output : 4 is power of 4
+
+
+4. Write a PHP program to check if an integer is the power of another integer. 
+Input : 16, 2
+Output : 16 is power of 2
+Example: For x = 16 and y = 2 the answer is "true", and for x = 12 and y = 2 "false"
+
+
+5. Write a PHP program to find a missing number(s) from an array.
+Input : 1,2,3,6,7,8
+Output : Array
+(
+[3] => 4
+[4] => 5
+)
+
+
+6. Write a PHP program to find three numbers from an array such that the sum of three consecutive numbers equal to zero.
+Input : (-1,0,1,2,-1,-4)
+Output : Array
+(
+[0] => -1 + 0 + 1 = 0
+)
+
+
+7. Write a PHP program to find three numbers from an array such that the sum of three consecutive numbers equal to a given number. 
+Input : (array(2, 7, 7, 1, 8, 2, 7, 8, 7), 16))
+Output : Array
+(
+[0] => 2 + 7 + 7 = 16
+[1] => 7 + 1 + 8 = 16
+)
+
+
+8. Write a PHP program to compute and return the square root of a given number. 
+Input : 16
+Output : 4
+
+
+9. Write a PHP program to find a single number in an array that doesn't occur twice. 
+Input : array(5, 3, 4, 3, 4)
+Output : Array
+(
+[0] => 5
+[1] => 3
+[2] => 4
+[3] => 3
+[4] => 4
+)
+Single Number: 5
+
+
+10. Write a PHP program to find the single element in an array where every element appears three times except for one.
+Input : array(5, 3, 4, 3, 5, 5, 3)
+Output : Array
+(
+[0] => 5
+[1] => 3
+[2] => 4
+[3] => 3
+[4] => 5
+[5] => 5
+[6] => 3
+)
+Single Number: 4
